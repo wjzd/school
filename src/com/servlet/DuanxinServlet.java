@@ -25,6 +25,7 @@ public class DuanxinServlet extends HttpServlet{
 	 */
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		System.out.println("获取短信验证码");
 		//得到网页传过来的电话号码
 		String tel=req.getParameter("tel");
 		//生成4位随机数
