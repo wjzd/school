@@ -1,0 +1,488 @@
+body{
+	background-color:#F6F3EF ;
+}
+/*点击首页返回*/
+.fhsy{
+	color:black;
+	text-decoration:none;
+}
+.headdiv{
+	background-color: white;
+	width: 100%;
+	height: 100px;
+}
+.logo{
+	width:7%;
+	margin-left: 9%;
+	margin-top: 10px;
+}
+
+.headtable{
+	width: 60%;
+	font-size: 17px;
+	position: absolute;
+	margin-top: -58px;
+	margin-left: 400px;
+}
+.headtable td{
+	width: 17%;
+	
+}
+.headtable span{
+	cursor: default;
+}
+.headtable span:hover{
+	color: #F9CD82;
+}
+.headinput{
+	width: 200px;
+	height: 35px;
+}
+.headgo{
+	width: 55px;
+	height: 41px;
+	color: white;
+	cursor: default;
+	position: absolute;
+	margin-top: -41px;
+	margin-left: 204px;
+	line-height: 42px;
+	background: lightsteelblue;
+}
+.middlediv{
+	width: 80%;
+	/*border: 1px solid red;*/
+	margin: auto;
+	margin-top: 20px;
+}
+.storeinfodiv{
+	width: 100%;
+	height: 140px;
+	background: white;
+}
+.storeimg{
+	width: 100px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.p1{
+	position: absolute;
+	
+	margin-left: 140px;
+	
+}
+/*商家名称*/
+.storenamespan{
+	font-size: 16px;
+	margin-top: -90px;
+}
+/*商店评价*/
+.storeevaluate{
+	margin-top: -60px;
+	color: orange;
+	font-size: 18px;
+}
+.infotable{
+	
+	margin-top: -120px;
+	margin-left: 40%;
+}
+.infotable td{
+	font-size: 15px;
+	width: 200px;
+	line-height: 50px;
+	color: #A9A9A9;
+}
+.tdspan{
+	font-weight: bold;
+	font-size: 30px;
+	color: #585858;
+}
+.infotable td{
+	text-align: center;
+}
+.xin{
+	cursor: default;
+	font-size: 30px;
+}
+.xin:hover{
+	color: orangered;
+}
+.hrtd{
+	border-left: 1px dashed #A9A9A9;
+}
+/*商店菜品种类*/
+.storekind{
+	width: 60%;
+
+	margin-top: 10px;
+	background: white;
+}
+.kindtable{
+	/*border: 1px solid red;*/
+	
+	font-size: 16px;
+	color: #464749;
+	margin-left: 40px;
+}
+.kindtable td{
+	
+	
+	width: 110px;
+	/*border: 1px solid red;*/
+	cursor: default;
+}
+
+.kindtable p{
+	
+	line-height: 40px;
+	text-align: center;
+	width: 40px;
+	border-bottom: 3px solid orange;
+}
+.dangan{
+	
+}
+/*横线*/
+.storekind hr{
+	border: 0.5px solid #bcbcbd;
+	opacity: 0.8;
+	margin-top: -20px;
+}
+/*菜单*/
+.cdtable{
+	font-size: 15px;
+	color: #626365;
+	/*border: 1px solid red;*/
+	width: 95%;
+	margin-left: 2.5%;
+}
+.cdtable td{
+	width: 18%;
+	height: 40px;
+	cursor: default;
+	/*border: 1px solid red;*/
+	
+}
+.cdtable span:hover{
+	color: orange;
+}
+/*每个菜单对应的商品*/
+.caidaninfo{
+	width: 60%;
+	
+	margin-top: 10px;
+	background: white;
+}
+.cpname{
+	height: 30px;
+	width: 18%;
+	/*border: 1px solid red;*/
+	font-size: 16px;
+	color: #404042;
+	line-height: 30px;
+	margin-left: 20px;
+}
+/*菜品表格*/
+.cptable{
+	width: 101%;
+	height: 100%;
+	margin-top: -10px;
+	margin-left: -2px;
+}
+.cptable td{
+	
+	border-top: 1px dashed #d6d7d9;
+	
+	/*text-align: center;*/
+}
+.cptable tr td:nth-child(1){
+	border-right: 1px dashed #d6d7d9;
+}
+.cptable tr td:nth-child(2){
+	border-right: 1px dashed #d6d7d9;
+}
+.cptable img{
+	width: 160px;
+	
+}
+.cptable li{
+	/*border: 1px solid red;*/
+	list-style: none;
+	margin-left: -25%;
+}
+.cptable ul{
+	
+	/*border: 1px solid red;*/
+}
+/*点击+购买*/
+.buy{
+	cursor: default;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	background: orange;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 18px;
+	border-radius:50% ;
+	margin-right: 10px;
+	margin-left: 50px;
+}
+.buypre{
+	color: #8e8e8b;
+	font-size: 15px;
+	width: 100px;
+	margin-top: -40px;
+	margin-left: 100px;
+	position: absolute;
+	/*border: 1px solid black;*/
+}
+.price{
+	color: orangered;
+	font-size: 17px;
+	font-weight: bold;
+	width: 50px;
+	/*border: 1px solid red;*/
+	margin-left: 22px;
+}
+.liimg{
+	text-align: center;
+}
+/*商品售卖完*/
+.sm{
+	
+	
+}
+/*购物车*/
+.xiadan{
+	width: 26%;
+	height: 50px;
+	/*border: 1px solid red;*/
+	background: #b9b8b2;
+	position: fixed;
+	bottom: 0px;
+	right: 10.4%;
+	z-index: 1;
+}
+/*购物车logo*/
+.gwclogo{
+	float: left;
+	width: 60%;
+	height: 100%;
+	background: #3f3f3d;
+}
+.gwclogo img{
+	width: 50px;
+}
+/*去结算*/
+.jsdiv{
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	line-height: 100%;
+	float: left;
+	width: 40%;
+	height: 100%;
+	background: #bbbdc3;
+}
+/*差多少元起送时*/
+.jsdiv p:nth-child(1){
+	cursor: default;
+	line-height: 100%;
+}
+/*购物清单div*/
+.qddiv{
+	display: none;
+	width: 26%;
+	background: white;
+	position: fixed;
+	bottom: 50px;
+	right: 10.4%;
+	z-index: 1;
+}
+.psdiv{
+	margin-top:-7px;
+	font-size:15px;
+	border-top:1px solid #dfe7e7;
+	width:95%;
+	height:50px;
+	margin-left:2.5%;
+	line-height:50px;
+}
+.psp{
+	color:orangered;
+	margin-left:90%;
+	margin-top:-50px;
+	width:10%;
+	height:50px;
+	
+}
+.psdiv span{
+	color:orangered;
+}
+.zjdiv{
+	margin-left:2.5%;
+	color:orangered;
+	text-align:center;
+	font-size:15px;
+	border-top:1px solid #dfe7e7;
+	width:95%;
+	height:50px;
+}
+.qdhead{
+	width: 100%;
+	height: 40px;
+	background: #dfe7e7;
+}
+.qdhead p{
+	color: #777979;
+	
+	margin-top: 10px;
+	float: left;
+	font-size: 15px;
+}
+.qdhead p:nth-child(1){
+	margin-left: 10px;
+}
+.shanchu{
+	margin-left: 60%;
+	cursor:default;
+}
+.shanchu:hover{
+	color: red;
+}
+
+/*配送费*/
+.psfei{
+	color: #fbb130;
+	margin-left: 43%;
+}
+/*点餐表格*/
+.qdtable{
+	
+	border-collapse:collapse;
+	margin-left: 5%;
+	width:94% ;
+	/*border: 1px solid black;*/
+	font-size: 14px;
+}
+.qdtable input{
+	
+	text-align: center;
+	outline: none;
+	width: 30px;
+	height: 10px;
+	
+}
+/*点击减少数量*/
+.jian{
+	margin-left: 10%;
+	margin-top: 1px;
+	line-height: 14px;
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	cursor: pointer;
+	border: 1px solid #d6d5d4;
+}
+/*点击增加数量*/
+.jia{
+	margin-left: 27%;
+	margin-top: -16px;
+	line-height: 14px;
+	height: 14px;
+	width: 14px;
+	position: absolute;
+	cursor: pointer;
+	border: 1px solid #d6d5d4;
+	
+}
+.qdtable td{
+	
+	line-height: 30px;
+	border-bottom: 1px solid #e6e5e3;
+}
+.qdtable td:first-child{
+	width: 40%;
+}
+.qdtable td:nth-child(2){
+	text-align: center;
+}
+.qdtable td:last-child{
+	line-height: 40px;
+	width: 15%;
+	text-align: center;
+	color: #fbb130;
+}
+.qdtable tr:last-child td{
+	border-bottom: none;
+}
+
+/*订单总数量*/
+.numspan{
+	color: orange;
+}
+/*美元符号*/
+.pricefh{
+	color: orangered;
+	font-size: 26px;
+	font-weight: bold;
+}
+/*订单总价*/
+.zjprice{
+	color: orangered;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+/*最后*/
+.finally_hr{
+	z-index: -1;
+	margin-top: 50px;
+	width: 100%;
+	background: #F7C049;
+	opacity: 0.6;
+}
+.finally{
+	width: 100%;
+	height: 300px;
+	font-size: 15px;
+}
+.finally table{
+	margin-top: 20px;
+	margin-left:100px ;
+}
+.finally th{
+	cursor: default;
+	opacity: 0.6;
+}
+.finally td:hover{
+	color: #F9CD82;
+}
+.finally td{
+	cursor: default;
+	text-align: center;
+	width: 250px;
+	color: #A2947A;
+	height: 30px;
+}
+.finally img{
+	width: 20px;
+	height: 20px;
+}
+
+.test{
+	width:150px;
+	border:1px solid red;
+}
+.test td{
+	width:50px;
+	height:50px;
+	border:1px solid red;
+}
+
+
+

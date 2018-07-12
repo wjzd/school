@@ -1,0 +1,550 @@
+/*头部div*/
+body{
+	
+	background-color:#F6F3EF ;
+}
+.headdiv{
+	background-color: white;
+	width: 100%;
+	height: 100px;
+}
+.logo{
+	width:7%;
+	margin-left: 9%;
+	margin-top: 10px;
+}
+
+.headtable{
+	width: 60%;
+	font-size: 17px;
+	position: absolute;
+	margin-top: -58px;
+	margin-left: 400px;
+}
+.headtable td{
+	width: 17%;
+	
+}
+.headtable span{
+	cursor: default;
+}
+.headtable span:hover{
+	color: #F9CD82;
+}
+.headinput{
+	width: 200px;
+	height: 35px;
+}
+.headgo{
+	width: 55px;
+	height: 41px;
+	color: white;
+	cursor: default;
+	position: absolute;
+	margin-top: -41px;
+	margin-left: 204px;
+	line-height: 42px;
+	background: lightsteelblue;
+}
+/*点击首页返回*/
+.fhsy{
+	color:black;
+	text-decoration:none;
+}
+
+/*商家div*/
+.xiadiv{
+	background: white;
+	border: 1px solid #bbbcbe;
+	opacity: 0.8;
+	width:30%;
+	margin-left:5%;
+	margin-top: 20px;
+	position:absolute;
+}
+.storediv{
+	width:100%;
+	height:100px;
+}
+/*订单详情头部table*/
+.dingdan{
+	height: 35px;
+	font-size: 20px;
+}
+
+	/*超链接返回*/
+.fanhui{
+	text-decoration: none;
+	font-size: 15px;
+	color: #606163;
+	margin-right: 10%;
+}
+.xiangqing{
+	border-top:1px solid #bbbdc3;
+	border-bottom:1px solid #bbbdc3;
+	height: 50px;
+	line-height: 50px;
+	font-size:15px;
+	color:#8E8E8B;
+}
+.xtable{
+	border-collapse:collapse;
+	width: 100%;
+	/*border:1px solid brown;*/
+	
+}
+.xtable td:nth-child(1){
+	width: 50%;
+}
+.xtable td:nth-child(1) span{
+	margin-left: 10%;
+	
+}
+.xtable td:nth-child(2){
+	text-align: right;
+}
+.xtable td:nth-child(3){
+	width: 20%;
+	margin-right: 10%;
+}
+td{
+	cursor: default;
+}
+.xiangqing td:nth-child(2){
+	
+	text-align: center;
+}
+/*订单详情table*/
+.menutable{
+	background: #f9f6f7;
+	margin-top: 10px;
+	margin-left: 2.5%;
+	width: 95%;
+	border-collapse:collapse;
+	/*border: 1px solid red;;*/
+}
+
+.menutable tr{
+	height: 50px;
+	border-top:1px solid #bbbdc3;
+}
+.menutable tr:first-child{
+	border-top: none;
+}
+.menutable td:nth-child(1){
+	color: #606163;
+	width: 50%;
+	font-size: 15px;
+}
+
+.menutable td:nth-child(2){
+	
+}
+.menutable td:nth-child(3){
+	width: 20%;
+	text-align: center;
+	font-size: 16px;
+	color: #79797a;
+}
+.cainame{
+	margin-left: 5%;
+}
+.jian{
+	background: white;
+	font-size: 15px;
+	margin-left: 8%;
+	margin-top: -5px;
+	position: absolute;
+	text-align: center;
+	width: 3%;
+	height: 15px;
+	line-height: 15px;
+	border: 1px solid #bbbdc3;
+	
+}
+.jia{
+	background: white;
+	font-size: 15px;
+	margin-top: -5px;
+	margin-left: 20%;
+	position: absolute;
+	text-align: center;
+	width: 3%;
+	height: 15px;
+	line-height: 15px;
+	border: 1px solid #bbbdc3;
+	
+}
+.numinput{
+	outline: none;
+	margin-top: -5px;
+	margin-left: 13%;
+	position: absolute;
+	text-align: center;
+	width: 5%;
+	height: 11px;
+}
+/*隐藏域*/
+.priceyin{
+	display: none;
+}
+/*配送费p*/
+.peisong{
+	color: #777979;
+	margin-left: 10%;
+	font-size: 15px;
+	width: 30%;
+	height: 30px;
+	
+}
+.peim{
+	font-size: 20px;
+	color: #f52547;
+}
+.zz{
+	color: #f52547;
+}
+/*总价和总数量*/
+.pricesum{
+	margin-bottom: 30px;
+	margin-left:62%;
+	width: 30%;
+	/*border: 1px solid red;*/
+}
+.moneyfh{
+	/*border: 1px solid black;*/
+	color: #f52547;
+	font-size: 17px;
+	font-weight: bold;
+}
+.pricesum p{
+	text-align: right;
+	width: 100%;
+}
+.pricesum p:nth-child(2){
+	margin-top: -15px;
+	font-size: 12px;
+}
+.moneyfh span{
+	font-size: 30px;
+}
+/*右边的div*/
+.xiadan{
+	background: white;
+	padding-left:2% ;
+	width:60%;
+	border: 1px solid #bbbdc3;
+	margin-left: 37%;
+	margin-top:20px;
+}
+.shouhuo{
+	width: 13%;
+	/*border: 1px solid red;*/
+	font-size: 20px;
+	
+}
+/*添加新地址*/
+.newlocation{
+	cursor:default;
+	border-bottom: 1px solid #8fcaf4;
+	/*border: 1px solid red;*/
+	color: #8fcaf4;
+	font-size: 15px;
+	position: absolute;
+	margin-left: 50%;
+	margin-top: -45px;
+}
+/*现在的收货地址*/
+.nowloacation{
+	color: #494a4b;
+	font-size: 15px;
+	width: 94%;
+	height: 80px;
+	border: 1px solid #8fcaf4;
+}
+.sanjiao{
+	width:0;
+    height:0;
+    border-width:40px 0 40px 40px;
+    border-style:solid;
+    border-color:transparent transparent transparent #72d4f8;/*透明 透明 透明 灰*/
+    margin:40px auto;
+    transform:rotate(45deg);
+    margin-top: -16px;
+    margin-left:95.5% ;
+ 
+}
+.san1{
+	width:0;
+    height:0;
+    border-width:40px 0 40px 40px;
+    border-style:solid;
+    border-color:transparent transparent transparent #72d4f8;/*透明 透明 透明 灰*/
+    margin:40px auto;
+    transform:rotate(45deg);
+    margin-top: -52px;
+    margin-left: 89.6%;
+}
+.san2{
+	width:0;
+    height:0;
+    border-width:40px 0 40px 40px;
+    border-style:solid;
+    border-color:transparent transparent transparent #72d4f8;/*透明 透明 透明 灰*/
+    margin:40px auto;
+    transform:rotate(45deg);
+    margin-top: -52px;
+    margin-left: 89.6%;
+    
+}
+/*鼠标放上去显示修改地址*/
+.nowloacation:hover{
+	
+	background: #f6f7f8;
+}
+.nowloacation img{
+	opacity: 0.2;
+	margin-top: 10px;
+	margin-left: 2%;
+	width: 7%;
+	/*border: 1px solid red;*/
+}
+/*用户信息*/
+.user{
+	margin-left: 15%;
+	margin-top: -55px;
+	width: 50%;
+	
+}
+.userl{
+	margin-left: 15%;
+	margin-top: -10px;
+	width: 50%;
+}
+.xiugai{
+	cursor: default;
+	margin-top: -60px;
+	margin-left: 90%;
+	color:white;
+	
+}
+/*更多地点*/
+.gengduo{
+	cursor: pointer;
+	margin-top: 10px;
+	width: 13%;
+	color: #9c9d9f;
+	font-size: 15px;
+}
+/*在线付款div*/
+.zaixian{
+	cursor: default;
+	padding-left:3% ;
+	font-size: 15px;
+	width: 40%;
+	height: 80px;
+	border: 1px solid #ff8040;
+}
+.zaixian p:nth-child(1){
+	width: 80%;
+	color: #474748;
+}
+.zaixian p:nth-child(2){
+	width: 80%;
+	
+	margin-top: -7px;
+	color: #979899;
+}
+/*货到付款div*/
+.huodao{
+	cursor: default;
+	padding-left:3% ;
+	font-size: 15px;
+	width: 40%;
+	height: 80px;
+	border: 1px solid #aad8f5;
+	margin-left: 50%;
+	margin-top: -82px;
+}
+.huodao p:nth-child(1){
+	width: 80%;
+	
+	color: #474748;
+}
+.huodao p:nth-child(2){
+	width: 80%;
+	
+	margin-top: -7px;
+	color: #979899;
+}
+/*订单信息*/
+.xinxi{
+	margin-top: 20px;
+	width: 50%;
+	font-size: 15px;
+	/*border: 1px solid red;*/
+}
+.xinxi td{
+	height: 40px;
+	/*border: 1px solid red;*/
+}
+.xinxi td:nth-child(1){
+	width: 30%;
+	color: #1d1d1d;
+}
+.xinxi td:nth-child(2){
+	color: #8b8c8c;
+	padding: 10px;
+}
+.biaoti{
+	font-weight: 550;
+	color: #131313;
+	font-size: 17px;
+}
+/*发表*/
+.fapiao{
+	background: #e7ebec;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #7b7c7c;
+	
+}
+.beizhu{
+	width: 100%;
+	height: 30px;
+}
+.store{
+	color: #149cf2;
+}
+/*确认付款*/
+.sure{
+	cursor: default;
+	width: 20%;
+	height: 50px;
+	background: #f43f27;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	margin-left: 10%;
+}
+/*添加地址弹窗div*/
+.wai{
+	display: none;
+	width: 99%;
+	height: 1300px;
+	position: absolute;
+	border: 1px solid black;
+	margin-top: -1010px;
+	background: #000000;
+	opacity: 0.2;
+	z-index: 1000;
+}
+.tjdiv{
+	display: none;
+	/*padding-left:5% ;*/
+	z-index: 1001;
+	top: 70px;
+	position: fixed;
+	/*border:1px solid red;*/
+	width: 50%;
+	height: 470px;
+	left: 25%;
+	background: white;
+}
+.cha{
+	margin-top: 1px;
+	cursor: default;
+	margin-left: 95%;
+	font-size: 30px;
+	color: #777979;
+	width: 5%;
+	height: 20px;
+	border: 1px slid red;
+	position: absolute;
+}
+.locationb{
+	width: 20%;
+	margin-left: 7%;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+.locationt{
+	margin-left: 10%;
+	width: 80%;
+	/*border: 1px solid red;*/
+}
+.locationt input:not(.sex){
+	width: 60%;
+	height: 30px;
+}
+.locationt td{
+	height: 50px;
+	/*border: 1px solid red;*/
+}
+.locationt td:nth-child(1){
+	text-align: right;
+	width:20% ;
+	color: #585858;
+	font-size: 15px;
+}
+.locationt td:nth-child(2){
+	padding-left:20px ;
+}
+.baocun{
+	margin-top: 30px;
+	padding-left: 20px;
+	letter-spacing: 20px;
+	font-size: 17px;
+	line-height: 40px;
+	color: white;
+	width: 20%;
+	height: 40px;
+	text-align: center;
+	background: #149CF2;
+}
+.sextd{
+	font-size: 15px;
+	color: #404042;
+}
+/*最后*/
+.finally_hr{
+	z-index: -1;
+	margin-top: 50px;
+	width: 100%;
+	background: #F7C049;
+	opacity: 0.6;
+}
+.finally{
+	width: 100%;
+	height: 300px;
+	font-size: 15px;
+}
+.finally table{
+	margin-top: 20px;
+	margin-left:100px ;
+}
+.finally th{
+	cursor: default;
+	opacity: 0.6;
+}
+.finally td:hover{
+	color: #F9CD82;
+}
+.finally td{
+	cursor: default;
+	text-align: center;
+	width: 250px;
+	color: #A2947A;
+	height: 30px;
+}
+.finally img{
+	width: 20px;
+	height: 20px;
+}
+
+

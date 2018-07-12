@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 根节点 -->
+<mapper namespace="com.dao.UserInfoMapper">
+
+	<resultMap type="UserInfo" id="userInfo"></resultMap>
+	
+	<select id="selectLogin" resultMap="userInfo" parameterType="String">
+		select * from userinfo where tel=#{#tel}
+	</select>
+	<select id="login" resultMap="userInfo">
+		select * from userinfo where tel=#{tel} and password=#{password}
+	</select>
+	<!-- 用户注册插入数据 -->
+	<insert id="register" parameterType="UserInfo" >
+		insert into userinfo(nickname,password,tel,idcard,sex) values(#{nickname},#{password},#{tel},#{idcard},#{sex})
+	</insert>
+	
+</mapper>

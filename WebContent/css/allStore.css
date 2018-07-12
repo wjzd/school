@@ -1,0 +1,40 @@
+
+.all_store td{
+	width: 300px;
+	height: 160px;
+}
+.all_store td:hover{
+	
+	background: #f6f3ef;
+}
+.all_store img{
+	width: 90px;
+	height: 90px;
+	margin-top: -30px;
+	margin-left: 20px;
+}
+.all_store div{
+	line-height: 32px;
+	font-size: 15px;
+	position: absolute;
+	margin-top: -90px;
+	margin-left: 130px;
+	color: #A2947A;
+}
+.star{
+	color: #F7C721;
+}
+.store_name{
+	color: black;
+	font-weight: bold;
+}
+.all_store span:nth-child(1){
+	font-size: 18px;
+}
+.time{
+	font-size: 15px;
+	position: absolute;
+	margin-top: 70px;
+	margin-left: -60px;
+	color: #A2947A;
+}

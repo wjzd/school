@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 根节点 -->
+<mapper namespace="com.dao.StoreInfoMapper">
+	<!-- 查询所有商店信息 -->
+	<resultMap type="StoreInfo" id="storeInfo">
+		
+	</resultMap>
+	
+	<!-- 查询商店的菜单 -->
+	<resultMap type="StoreInfo" id="storemenu">
+		<id column="id" property="id"/>
+		<collection column="id" property="menu" ofType="MenuInfo" select="selectmenu">
+			<id column="menuid" property="menuid"/>
+			<result column="menuname" property="menuname"/>
+			<result column="menuprice" property="menuprice"/>
+			<result column="menuimg" property="menuimg"/>
+			<result column="storeid" property="storeid"/>
+		</collection>
+	</resultMap>
+	
+	<!-- 查询所有商店信息 -->
+	<select id="store" resultMap="storeInfo">
+			select * from store
+	</select>
+	<!-- 查询商店的菜单 -->
+	<select id="menu" resultMap="storemenu" parameterType="int">
+			select * from store where id=#{id}
+	</select>
+	
+	<select id="selectmenu" resultType="MenuInfo" parameterType="int">
+		select * from menu where storeid=#{id}
+	</select>
+	<!-- 根据商店id查询商店信息 -->
+	<select id="storeInfo"  resultType="StoreInfo" parameterType="int">
+		select * from Store where id=#{id}
+	</select>
+	
+</mapper>

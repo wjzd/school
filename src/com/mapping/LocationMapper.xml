@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 根节点 -->
+<mapper namespace="com.dao.LocationMapper">
+	<resultMap type="Shlocation" id="ll">
+	
+	</resultMap>
+
+	<select id="location" resultMap="ll" parameterType="int">
+		select * from shlocation where userid=#{id}
+	</select>
+	<!-- 修改地址 -->
+	<update id="xiugai" parameterType="Shlocation">
+		update shlocation set name=#{name},sex=#{sex},photo=#{photo},dalocation=#{dalocation},detail=#{detail} where locationid=#{userid}
+	</update>
+	<!-- 添加地址 -->
+	<insert id="tjlocation" parameterType="Shlocation">
+		insert into shlocation(name,sex,photo,dalocation,detail,userid) values(#{name},#{sex},#{photo},#{dalocation},#{detail},#{userid})
+	</insert>
+</mapper>

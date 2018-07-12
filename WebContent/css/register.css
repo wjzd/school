@@ -1,0 +1,93 @@
+body{
+	background-color:#F6F3EF ;
+}
+table{
+	margin-top: 30px;
+	margin-left: 500px;
+}
+/*tr下的第一个td*/
+tr td:nth-child(1){
+	font-size:15px ;
+}
+/*tr下的第二个td(com)下的input*/
+.com input{
+ 	width: 200px;
+ 	height: 20px;
+ }
+ /*验证码样式*/
+
+ .yzm{
+ 	margin-top:-1px;
+	float:left;
+ 	width:20px;
+ 	margin-left:4px;
+ 	/*border:1px solid red;*/
+ 	
+ }
+ .yzm1{
+	 transform:rotate(-30deg); 
+ 	font-size:20px;
+ 	font-weight:bold;
+ 	color:red;
+ 	
+ }
+ .yzm2{
+ 	transform:rotate(20deg); 
+ 	font-style:oblique;
+ 	font-size:25px;
+ 	color:#3333cc;
+ 	
+ }
+ .yzm3{
+ 	transform:rotate(-30deg); 
+ 	font-size:16px;
+ 	color:#400040;
+ 	
+ }
+ .yzm4{
+  transform: rotate3d(0,1,0,60deg);
+ 	font-style:italic;
+ 	font-size:23px;
+ 	color:#ff8000;
+ 	
+ }
+ /*提示验证码错误*/
+.com span{
+ 	
+ 	font-size:8px;
+ }
+ /*获取验证码*/
+ .get_code td div{
+ 	margin-left: 50px;
+ 	float: left;
+ 	width: 100px;
+ 	height: 50px;
+ 	background:burlywood;
+ 	
+ 	text-align: center;
+ 	line-height: 50px;
+ }
+ .get_code td span{
+ 	float: left;
+ 	margin-left: 20px;
+ 	margin-top: 30px;
+ 	color: #A9A9A9;
+ 	text-decoration: underline;
+ }
+ /*设置鼠标放上去的样式*/
+  .get_code td span:hover{
+  	color: #F7C049;
+  	cursor:default;
+  }
+ tr td{
+ 	
+ 	height: 40px;
+ }
+ /*最下面的注册按钮*/
+.register input{
+	width: 100px;
+	height: 30px;
+	margin:0 auto;
+	margin-left: 100px;
+}
+
